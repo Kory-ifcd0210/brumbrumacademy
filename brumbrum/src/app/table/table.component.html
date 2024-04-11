@@ -1,4 +1,3 @@
-<!-- tabla-ejemplo.component.html -->
 <p-table [value]="driversList">
   <ng-template pTemplate="header">
       <tr>
@@ -10,9 +9,10 @@
   <ng-template pTemplate="body" let-driver>
     <tr>
       <td></td>
-      <td>    
-          <p-avatar label={{driver.firts}} size="large" [style]="{ 'background-color': '#23538F', color: '#ffffff' }" shape="circle"></p-avatar>
-            {{ driver.name }}</td>
+      <td>
+          <p-avatar label="{{ driver.first }}" [style]="{ 'background-color': '#23538F', color: '#ffffff'}" shape="circle"></p-avatar>
+          {{ driver.name }}
+            </td>
           <td></td>
       </tr>
   </ng-template>

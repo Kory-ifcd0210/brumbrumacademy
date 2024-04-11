@@ -34,6 +34,12 @@ interface Race {
 
 export class TableComponent  {
 
-    driversList: Drivers[] = drivers
-
+    driversList: Drivers[] = drivers.map(driver => {
+        return {
+            id: driver.id,
+            name: driver.name,
+            first: driver.name[0]
+        };
+        });
+    
 }

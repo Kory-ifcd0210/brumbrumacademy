@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { ImageModule } from 'primeng/image';
 import { TableComponent } from "../table/table.component";
 import { MenubarModule } from 'primeng/menubar';
