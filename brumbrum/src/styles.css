@@ -3,8 +3,18 @@
 @import "primeng/resources/primeng.css";
 @import "primeicons/primeicons.css";
 
+
+:root {
+  --primary-color: #23538F;
+  --primary-color-opacity: #23548f6a;
+  --secondary-color: #da771b;
+  --text-color: whitesmoke;
+  --black: #1A1A1A;
+}
+
 body{
-    background-color: #1A1A1A;
-    color: whitesmoke;
+    background-color: var(--black);
+    color: var(--text-color);
     margin: 0;
+    padding: 0;
 }

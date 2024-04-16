@@ -1,15 +1,14 @@
-table {
-    width: 85%;
-    border-collapse: collapse;
-    text-align: center;
-}
+
+
 th, td {
     padding: 8px;
 }
 th {
-    background-color: #23538F;
+    background-color:var(--primary-color);
+    color: var(--text-color);
 }
 
 tr:nth-child(even) {
-    background-color: #23548f6a;
+    background-color:var(--primary-color-opacity);
+    color: var(--text-color);
 }
