@@ -1,0 +1,18 @@
+<p-card header="{{ circuit?.name }}" subheader="Detalles del Circuito" [style]="{ width: 'auto' }">
+    <ng-template pTemplate="header">
+      <img [src]="circuit?.image" alt="Circuito de {{ circuit?.name }}" />
+    </ng-template>
+    <p>
+      Localización: {{ circuit?.location }}
+    </p>
+    <p>
+      Vuelta rápida: {{ circuit?.time }}
+    </p>
+    <ng-template pTemplate="footer">
+      <!-- Aquí puedes agregar el pie de página si es necesario -->
+    </ng-template>
+  </p-card>
+  
+  <!-- <div *ngIf="!circuit">
+    <p>Circuito no encontrado.</p>
+  </div> -->
