@@ -1,11 +1,10 @@
 export interface Race {
-    id: 0,
-        name: string,
-        date: string,
-        hour: string,
-        location: string,
-        circuit: string,
-        times: Time[]
+  id: number,
+  name: string,
+  date: string,
+  hour: string,
+  circuit: number,
+  times: Time[]
 }
 
 export interface Time {

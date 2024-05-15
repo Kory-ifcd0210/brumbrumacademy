@@ -2,16 +2,18 @@
   <ng-template pTemplate="header">
     <tr>
       <th>Posición</th>
-      <th>Piloto</th>
+      <th colspan="2">Piloto</th>
       <th>Puntos</th>
     </tr>
   </ng-template>
-  <ng-template pTemplate="body" let-driver>
+  <ng-template pTemplate="body" let-driver let-i="rowIndex">
     <tr>
-      <td>{{driver.id + 1}}</td>
+      <td>{{i + 1}} º</td>
       <td>
-        <p-avatar label="{{ driver.first }}" [style]="{ 'background-color': '#23538F', color: '#ffffff'}"
-          shape="circle"></p-avatar>
+      <p-avatar label="{{ driver.first }}" [style]="{ 'background-color': '#23538F', color: '#ffffff'}"
+      shape="circle"></p-avatar>
+      </td>
+      <td>
         {{ driver.name }}
       </td>
       <td></td>

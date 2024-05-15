@@ -10,6 +10,10 @@
   --secondary-color: #da771b;
   --text-color: whitesmoke;
   --black: #1A1A1A;
+  --font-size : 45px;
+}
+* {
+  font-size: var(--font-size);
 }
 
 body{
@@ -17,4 +21,6 @@ body{
     color: var(--text-color);
     margin: 0;
     padding: 0;
-}
+    width: 100%;
+    display: flex;
+  }

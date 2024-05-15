@@ -4,8 +4,7 @@ export const races = [
         name: 'GP Junio 1',
         date: '25/06/2022',
         hour: '11:20',
-        location: 'La Esperanza',
-        circuit: 'Karting Canarias',
+        circuit: 1,
         times: [
             {
                 driverId: 0,
@@ -166,8 +165,7 @@ export const races = [
         name: 'GP Junio 2',
         date: '25/06/2022',
         hour: '13:00',
-        location: 'La Esperanza',
-        circuit: 'Karting Canarias',
+        circuit: 1,
         times: [
             {
                 driverId: 1,
@@ -332,8 +330,7 @@ export const races = [
         name: 'GP Julio A',
         date: '10/07/2022',
         hour: '12:30',
-        location: 'La Esperanza',
-        circuit: 'Karting Canarias',
+        circuit: 1,
         times: [
             {
                 driverId: 5,
@@ -496,8 +493,7 @@ export const races = [
         name: 'GP Julio B',
         date: '10/07/2022',
         hour: '13:10',
-        location: 'La Esperanza',
-        circuit: 'Karting Canarias',
+        circuit: 1,
         times: [
             {
                 driverId: 8,
@@ -704,8 +700,7 @@ export const races = [
         name: 'GP Agosto',
         date: '20/08/2022',
         hour: '12:00',
-        location: 'La Esperanza',
-        circuit: 'Karting Canarias',
+        circuit: 1,
         times: [
             {
                 driverId: 3,
@@ -870,8 +865,7 @@ export const races = [
         name: 'GP Octubre',
         date: '16/10/2022',
         hour: '14:10',
-        location: 'La Esperanza',
-        circuit: 'Karting Canarias',
+        circuit: 1,
         times: [
             {
                 driverId: 0,
@@ -966,8 +960,7 @@ export const races = [
         name: 'GP Noviembre A',
         date: '12/11/2022',
         hour: '17:50',
-        location: 'La Esperanza',
-        circuit: 'Karting Canarias',
+        circuit: 1,
         times: [
             {
                 driverId: 5,
@@ -1088,8 +1081,7 @@ export const races = [
         name: 'GP Noviembre B',
         date: '12/11/2022',
         hour: '18:10',
-        location: 'La Esperanza',
-        circuit: 'Karting Canarias',
+        circuit: 1,
         times: [
             {
                 driverId: 19,
@@ -1294,8 +1286,7 @@ export const races = [
         name: 'GP Diciembre',
         date: '18/12/2022',
         hour: '13:00',
-        location: 'La Esperanza',
-        circuit: 'Karting Canarias',
+        circuit: 1,
         times: [
             {
                 driverId: 28,

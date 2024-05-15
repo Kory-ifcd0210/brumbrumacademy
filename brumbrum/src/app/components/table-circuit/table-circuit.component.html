@@ -1,0 +1,21 @@
+<p-table [value]="circuitList">
+    <ng-template pTemplate="header">
+      <tr>
+        <th>Circuito</th>
+        <th>Vuelta rápida de circuito</th>
+        <th>Localización</th>
+        <th>Total carreras realizadas</th>
+        <th></th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-circuit>
+      <tr>
+        <td><p><a [routerLink]="[circuit.url]">{{ circuit.name }}</a></p><img src="{{circuit.image}}" alt="circuito de {{circuit.name}}"></td>
+        <td>{{ circuit.time }}</td>
+        <td>{{ circuit.location }}</td>
+        <td></td>
+        <td>Ver</td>
+      </tr>
+    </ng-template>
+  </p-table>
+
